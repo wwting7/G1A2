@@ -6,6 +6,8 @@ pub enum C1Token {
 
     // Logos requires one token variant to handle errors,
     // it can be named anything you wish.
+    
+    
     #[error]
     Error,
 }
